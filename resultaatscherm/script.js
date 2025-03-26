@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const quizForm = document.getElementById("quizForm");
 
     if (quizForm) {
-        const quizNaam = quizForm.getAttribute("data-quiz"); // Haal quiznaam op
+        const quizNaam = quizForm.getAttribute("data-quiz");
 
         quizForm.addEventListener("submit", function (event) {
             event.preventDefault();
@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 q10: document.querySelector('input[name="q10"]:checked')?.value || "",
             };
 
-            localStorage.setItem(quizNaam, JSON.stringify(antwoorden)); // Unieke opslag per quiz
-            localStorage.setItem("laatsteQuiz", quizNaam); // Onthoud welke quiz is gemaakt
+            localStorage.setItem(quizNaam, JSON.stringify(antwoorden));
+            localStorage.setItem("laatsteQuiz", quizNaam); 
             window.location.href = "../resultaatscherm/index.html";
         });
     }

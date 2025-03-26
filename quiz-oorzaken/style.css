@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #E0F7FA; /* Lichte blauwachtige achtergrond */
+    background-color: #E0F7FA; 
     text-align: center;
     margin: 0;
     padding: 0;
@@ -10,21 +10,21 @@ body {
     width: 80%;
     margin: 50px auto;
     padding: 20px;
-    background-color: #B3E5FC; /* Lichter blauw voor de container */
+    background-color: #B3E5FC;
     border-radius: 10px;
 }
  
 .quiz-container {
     width: 60%;
     margin: 20px auto;
-    background-color: #03A9F4; /* Heldere blauwe kleur voor de quiz container */
+    background-color: #03A9F4;
     border-radius: 10px;
     overflow: hidden;
     padding: 20px;
 }
  
 .quiz-header {
-    background-color: #0288D1; /* Donkerder blauw voor de header */
+    background-color: #0288D1; 
     color: white;
     padding: 15px;
     font-weight: bold;
@@ -65,13 +65,13 @@ body {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #2196F3; /* Blauwe knop */
+    background-color: #8D8482; 
     color: white;
     cursor: pointer;
 }
  
 .header {
-    background-color: #1E88E5; /* Donkerder blauw-oranje tint voor de hoofd header */
+    background-color: #1E88E5; 
     color: white;
     text-align: center;
     padding: 20px;

@@ -53,18 +53,18 @@ h2 {
 }
 
 .clickable-div {
-    width: 500px; /* Set a width for the div */
-    height: 90px; /* Set a height for the div */
+    width: 500px;
+    height: 90px; 
     position: absolute;
     display: flex;
-    background-color: #4CAF50; /* Background color */
-    color: rgb(0, 0, 0); /* Text color */
-    justify-content: center; /* Center text horizontally */
-    align-items: center; /* Center text vertically */
-    text-decoration: none; /* Remove underline from link */
-    border-radius: 5px; /* Optional rounded corners */
-    cursor: pointer; /* Change cursor to pointer */
-    transition: background-color 0.3s; /* Smooth background color transition */
+    background-color: #4CAF50; 
+    color: rgb(0, 0, 0); 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
     bottom: 5%;
     left: 50%;
     transform: translateX(-50%);

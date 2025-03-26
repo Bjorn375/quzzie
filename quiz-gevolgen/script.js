@@ -22,6 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = "../resultaatscherm/index.html";
         });
     }
-
-    //Resultaatscherm
 });
